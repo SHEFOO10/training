@@ -48,5 +48,4 @@
      $s = "string";
      $a = &$s;
     
-     //test
           ?>
