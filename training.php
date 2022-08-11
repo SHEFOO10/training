@@ -47,5 +47,6 @@
      // here if i change the value of $s the value of $a will be changed , and if i change the value of $a the $s will be changed
      $s = "string";
      $a = &$s;
-     
+    
+     //test
           ?>
