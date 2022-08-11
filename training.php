@@ -48,4 +48,13 @@
      $s = "string";
      $a = &$s;
     
+
+
+     // value variable 
+     $a = "shefoo";
+     $$a = "new shefoo"; // it's $$a equal $shefoo
+
+     //this is the way to print $$a
+     echo " like this ${$a}";
+     
           ?>
