@@ -43,4 +43,9 @@
     // this is the syntax between the / here / you type the expression
     $pattern = "/regular expressions/";
     
+
+     // here if i change the value of $s the value of $a will be changed , and if i change the value of $a the $s will be changed
+     $s = "string";
+     $a = &$s;
+     
           ?>
