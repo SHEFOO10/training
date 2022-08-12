@@ -70,12 +70,12 @@
     // that's like convert string to intger with multiple by -
         //echo -"100";
     echo '<br>';
-    echo '<br>';
-
+    
     echo '<br>';
     
     echo '<br>';
-
+    
+    echo '<br>';
     echo '<br>';
     echo '<br>';
 
