@@ -47,7 +47,6 @@
      // here if i change the value of $s the value of $a will be changed , and if i change the value of $a the $s will be changed
      $s = "string";
      $a = &$s;
-    
 
 
      // value variable 
@@ -55,6 +54,26 @@
      $$a = "new shefoo"; // it's $$a equal $shefoo
 
      //this is the way to print $$a
-     echo " like this ${$a}";
-     
-          ?>
+         //echo " like this ${$a}";
+
+     // make constant variable
+     define("SHEFOO", "diablo");
+    // echo SHEFOO;
+    
+    echo '<br>';
+    // that's like convert string to intger with multiple by +
+        //echo +"10sdfds05shefoo";
+
+    echo '<br>';
+    // that's like convert string to intger with multiple by -
+        //echo -"10sdfds05shefoo";
+    echo '<br>';
+
+    echo '<br>';
+    
+    echo '<br>';
+
+    echo '<br>';
+
+    echo '<br>';
+    ?>
