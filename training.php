@@ -61,9 +61,11 @@
     // echo SHEFOO;
     
     echo '<br>';
+
+    //Important !!!!!!!!!! string will be ignored.
     // that's like convert string to intger with multiple by +
         //echo +"100";
-
+    
     echo '<br>';
     // that's like convert string to intger with multiple by -
         //echo -"100";
