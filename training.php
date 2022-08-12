@@ -62,11 +62,11 @@
     
     echo '<br>';
     // that's like convert string to intger with multiple by +
-        //echo +"10sdfds05shefoo";
+        //echo +"100";
 
     echo '<br>';
     // that's like convert string to intger with multiple by -
-        //echo -"10sdfds05shefoo";
+        //echo -"100";
     echo '<br>';
 
     echo '<br>';
