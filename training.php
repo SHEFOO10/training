@@ -71,7 +71,33 @@
         //echo -"100";
         echo '<br>';
         echo '<br>';
+        
+
+
+/*         //important !!!!!!
+
+        $as = "Sherif";
+        $b = "hamdy";
+        $c = "mohamed";
+
+        echo "{$as} {$b} {$c}";  //shows ..... Sherif hamdy mohamed
         echo '<br>';
+        echo "$as $b $c";  //shows ..... Sherif hamdy mohamed
         echo '<br>';
-    
+        echo $as.$b.$c; //shows ..... Sherifhamdymohamed
+         
+        // when you need to put constant or function or anything on string do concatinate  
+        
+        define("SHEFOO", "that's my name");
+        echo "is that your name ? " . SHEFOO;     // shows .. is that your name ? that's my name
+
+        $st = "add to me ";
+        $st .= "   add !";       // "add to me    add !"
+*/
+
+
+
+
+
+
     ?>
