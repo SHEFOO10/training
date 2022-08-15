@@ -94,8 +94,26 @@
         $st = "add to me ";
         $st .= "   add !";       // "add to me    add !"
 */
+    
+/*
+    $arr = [
+        "shefoo" => [
+            1,
+            "name" => "sherif",
+            "interests" => [
+                "web development",
+                "cyber security",
+                "kali linux" => [
+                    "version" => "Debain"
+                ]
+            ]
+        ]
+                ];
 
+    echo '<pre>';
+    print_r($arr);
+    echo '<pre>';
+    */
 
+?>
 
-
-    ?>
