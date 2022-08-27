@@ -26,7 +26,7 @@
 
   $arr4 = [1 => "10", 2 => "20"];
   $arr5 = [2 => 20, 1 => 10];
-
+  print_r($arr4 + $arr5);
   var_dump($arr4 == $arr5); // True
   echo '<br>';
   var_dump($arr4 != $arr5); // False

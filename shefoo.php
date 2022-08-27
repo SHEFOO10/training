@@ -1,6 +1,7 @@
-<?php 
+<?php
 // that about & who can make the variable that I passed copy the content by referance of the variable I have assigned in the function. 
-function copybyrefernce(&$the_variable) {
+function copybyrefernce(&$the_variable)
+{
     // assign the variable.
     $the_variable = "anything";
     // the variable after assigning will copy itself to the variable I passed in the function.
@@ -25,3 +26,5 @@ that for auto loading the class
 /* 1. make a perfect login and sign up page .
    2. organize everything in the website .
    3. test every thing in the website {security , screen} */
+?>
+
