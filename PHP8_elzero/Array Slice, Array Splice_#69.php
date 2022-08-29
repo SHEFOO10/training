@@ -52,6 +52,6 @@
   $nums = [10, 20, 30, 40, 50, 60, 70];
 
   echo '<pre>';
-  print_r(array_splice($nums, 2, 1, ["One", "Two"]));
+  print_r(array_splice($nums, 2, 2, ["One", "Two"]));
   print_r($nums);
   echo '</pre>';
