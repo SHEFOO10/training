@@ -1,5 +1,5 @@
 <?php
-        function &collector() {
+        function &collector() { // you can put paramter عادي 
                 
             $collection = array("shefoo"); // $collection = array(); this specificed collection variable as array 
              // static to make collection hold data
