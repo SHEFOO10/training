@@ -116,7 +116,20 @@
     */
     
 
+    //file permissions
+    /*
+                1 => excute
+                2 => write
+                3 => write and excute
+                4 => read
+                5 => read and excute
+                6 => write and read
+                7 => read and write and excute
 
+
+
+
+    */
 ?>
 
 
