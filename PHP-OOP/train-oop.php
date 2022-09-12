@@ -38,3 +38,14 @@ class child extends shefoo {
 $ob = new child;
 $ob->callan();
 $ob->bye();
+
+
+interface struct {  // interface have only functions 
+    public function set (); // must be public 
+}
+
+class in implements struct {
+    public function set(){
+
+    }
+}
