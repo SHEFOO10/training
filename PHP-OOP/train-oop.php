@@ -46,6 +46,6 @@ interface struct {  // interface have only functions
 
 class in implements struct {
     public function set(){
-
+        // code here.
     }
 }
