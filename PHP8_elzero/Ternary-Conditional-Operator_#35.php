@@ -47,4 +47,7 @@
 
   $result = $a > 8 ? "Good" : "Bad";
 
-  echo "I Love PHP Because Its A $result Language";
+  echo "I Love PHP Because Its A $result Language". "\n";
+  
+
+  // echo false ?: "no"; 

@@ -51,6 +51,27 @@ $ob->nfeature();
 
 
 
+trait sh {
+    abstract function test () ;
+}
+
+class tst { // class don't support anonymous or arrow functions
+    use sh;
+    // you cannot use arrow function
+    // public $shefoo = fn() => "shefoo";
+
+    /*
+     You cannot use anonymous function 
+      public $shefoo = function () {
+    } 
+    */
+    public function test() {
+        echo " shefoo is here ";
+    }
+}
+
+$bs = new tst;
+$bs ->test();
 
 
 
@@ -59,6 +80,17 @@ $ob->nfeature();
 
 
 
+// $ob = new class("shefoo") { //anonymous class
+//     public function __construct($u)
+//     {
+//         // anonymous class can have __construct function with arguments
+//     }
+//     public function sayhello() {
+//         echo " hello world ";
+
+//     }
+// };
+// var_dump($ob);
 
 
 

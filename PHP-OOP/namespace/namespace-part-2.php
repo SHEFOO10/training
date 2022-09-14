@@ -18,7 +18,7 @@ require "Sony.php";
 require "LG.php";
 
 
-$Sony = new lg\CreatePhone; // This class you need first to specify the [ world, room ] of class 
+$Sony = new shefoo\CreatePhone; // This class you need first to specify the [ world, room ] of class 
  
 $Sony->sayHello();
 
@@ -36,11 +36,6 @@ class glbl {
 
 
   
-
-
-
-
-
 
 
 
