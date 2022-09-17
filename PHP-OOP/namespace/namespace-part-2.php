@@ -14,16 +14,21 @@
 
 */
 
+
+
 require "Sony.php";
 require "LG.php";
 
-
 $Sony = new shefoo\CreatePhone; // This class you need first to specify the [ world, room ] of class 
- 
+
 $Sony->sayHello();
 
 
 
+use shefoo\CreatePhone;
+echo CreatePhone::class::$va;
+
+// CreatePhone::class = shefoo\CreatePhone
 class glbl {
     public function test() {
         echo " This is for the test and this class globally use";

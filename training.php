@@ -130,6 +130,12 @@
 
 
     */
+
+
+    echo "\e[1;31mMerry Christmas!\e[0m\n";
+
+
+
 ?>
 
 
