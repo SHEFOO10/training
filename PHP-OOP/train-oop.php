@@ -4,7 +4,7 @@
 
 //  test some thing 
 
-
+use Mockery\Expectation;
 
 class ob {
     function sayhello() {
@@ -46,16 +46,5 @@ class nw {
 }
 
 nw::sh()->shefoo();
-
-
-
-
-
-
-
-
-
-
-
 
 
